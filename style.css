@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 main {
     align-items: flex-start;
     display: flex;
@@ -27,4 +28,87 @@ article {
 
 .orange .box{
     background: purple;
+=======
+body {
+  position: absolute;
+  width: 1130px;
+  margin: 0px auto;
+  color: #222;
+}
+
+img {
+  width: 100%;
+}
+
+.name {
+  position: absolute;
+  color: #222;
+  width:600px;  
+  top: 195px;
+  left: 245px;
+  font-size: 33px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.anakin {
+  position: absolute;
+  font-size: 65px;
+  top: 190px;
+  left: 250px;
+  font-family: 'Abril Fatface', cursive;
+}
+   
+main, footer {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+h2,h3,p,ul {
+  font-family: 'Josefin Sans', sans-serif; 
+  
+}
+
+h2:not(.anakin){
+  text-transform: uppercase;
+}
+h4 {
+ font-family: 'Merriweather', serif;
+ font-style: italic; 
+ font-size: 15px;
+}
+
+div {
+  display: flex;
+}
+
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  box-sizing: content-box;
+  background: #484848;
+  color: white;
+  width: 1000px;
+  padding: 50px;
+  position: relative;
+  text-align: left;
+}
+
+blockquote::before {
+  content: '”';
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+footer {
+  border-top: #222 solid 4px;
+  margin-top: 50px;
+
+>>>>>>> parent of 725d6d4... hovering effect
 }
